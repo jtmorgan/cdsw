@@ -18,7 +18,7 @@ permits_by_month = {}
 #go through the JSON data. Tally up permits per month.
 for x in bp_api_data:
 
-#'issue_date':"2012-03-10 00:00:00"
+#   'issue_date':"2012-03-10 00:00:00"
 
     #get just the year and month from each datetime. It's always the first 7 characters
     month_string = x['issue_date'][0:7] #2012-03
